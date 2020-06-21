@@ -1,0 +1,12 @@
+p.title-content {
+
+	padding: 8px 10px;
+	border-bottom: 1px solid gray;
+	border-radius: 5px;
+	color: #222;
+	font-size: 14px;
+
+}
+.form-content{
+	padding: 10px 20px;
+}

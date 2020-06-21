@@ -1,0 +1,115 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
+#nav-top {
+   transition: margin-left .3s;
+
+}
+#nav-top ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  z-index: 1;
+}
+
+#nav-top li {
+  float: left;
+}
+
+#nav-top li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+#nav-top li a:hover {
+  color: #777 ! important;
+}
+#accContent{
+  display: none;
+  padding: 6px;
+  padding-left: 20px;
+  background-color: #444;
+}
+#accContent2 {
+  display: none;
+  padding: 6px;
+  padding-left: 20px;
+  background-color: #444;
+}
+#transContent{
+  display: none;
+  padding: 6px;
+  padding-left: 20px;
+  background-color: #444;
+}
+#transContent2 {
+  display: none;
+  padding: 6px;
+  padding-left: 20px;
+  background-color: #444;
+}
+#transContent3 {
+  display: none;
+  padding: 6px;
+  padding-left: 20px;
+  background-color: #444;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.3s;
+  /*padding-top: 10px;*/
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #4cd137;
+  border-radius: 50%;
+  display: inline-block;
+}
+.sidebar a{
+  padding: 8px 25px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #666;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #777 ! important;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left 0.3s;
+  padding: 15px;
+  margin: auto;
+  width: 90%;
+  /*background-color: #fff;*/
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 14px;}
+  .container-fluid #title {font-size: 14px;}
+}
+
